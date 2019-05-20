@@ -1,0 +1,40 @@
+h1{
+
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.container{
+
+
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+
+  .table{
+
+    .row{
+
+      display: flex;
+      padding: 5px 0;
+      border-bottom: 1px solid #ccc;
+
+      .id{
+        width: 50px;
+        text-align: center;
+      }
+
+      .name , .lastname{
+
+        width: 200px;
+        padding-left: 10px;
+      }
+
+      &.title{
+
+        font-weight: bold;
+      }
+    }
+  }
+}

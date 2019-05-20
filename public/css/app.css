@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.container .table .row {
+  display: flex;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.container .table .row .id {
+  width: 50px;
+  text-align: center;
+}
+
+.container .table .row .name,
+.container .table .row .lastname {
+  width: 200px;
+  padding-left: 10px;
+}
+
+.container .table .row.title {
+  font-weight: bold;
+}
+
