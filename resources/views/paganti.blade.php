@@ -10,7 +10,7 @@
 <div class="row">
   <div class="id">
 
-    <a href="">{{$pagante -> id}}</a>
+    <a href="/paganti/{{$pagante -> id}}">{{$pagante -> id}}</a>
 
   </div>
   <div class="name">

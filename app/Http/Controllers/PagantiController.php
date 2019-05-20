@@ -19,6 +19,8 @@ class PagantiController extends Controller
 
       // dd($paganti);
 
+      
+
       return view('paganti',["paganti" => $paganti]);
     }
 
