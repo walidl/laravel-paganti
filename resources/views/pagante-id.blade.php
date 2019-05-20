@@ -5,6 +5,13 @@
 
 @stop
 
+@section('otherColumns')
+
+<div class="address">
+  ADDRESS
+</div>
+@stop
+
 @section ('rows')
 
 
@@ -19,6 +26,9 @@
   <div class="lastname">
     {{$pagante[0] -> lastname}}
 
+  </div>
+  <div class="address">
+    {{$pagante[0] -> address}}
   </div>
 
 </div>

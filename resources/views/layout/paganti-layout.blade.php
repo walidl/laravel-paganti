@@ -30,6 +30,9 @@
                 LASTNAME
               </div>
 
+              @yield('otherColumns')
+
+
             </div>
 
             @yield('rows')
